@@ -1,36 +1,227 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Isuru | Tourism, Tech & Voice</title>
-<meta name="description" content="Personal portfolio of Isuru: tourism and hospitality expert, tech enthusiast and voice artist from Sri Lanka.">
-<meta name="theme-color" content="#121212">
-<link rel="icon" href="img/logo-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css"></head><body>
-<div id="bar"></div><div class="cur"></div><div class="ring"><small></small></div>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Isuru | Tourism, Tech & Voice</title>
+  <meta name="description" content="Personal portfolio of Isuru: tourism and hospitality expert, tech enthusiast and voice artist from Sri Lanka.">
+  <meta name="theme-color" content="#121212">
+  <link rel="icon" href="img/logo-icon.png">
+  
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Open Graph / Social Media Snippets -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://helloisuru.vercel.app/">
+  <meta property="og:title" content="Isuru | Tourism, Tech & Voice">
+  <meta property="og:description" content="Personal portfolio of Isuru: tourism and hospitality expert, travel tech director, and voice artist from Sri Lanka.">
+  <meta property="og:image" content="https://helloisuru.vercel.app/img/head-cutout.png">
+
+  <!-- Twitter Card Snippets -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Isuru | Tourism, Tech & Voice">
+  <meta name="twitter:description" content="Personal portfolio of Isuru: tourism and hospitality expert, travel tech director, and voice artist from Sri Lanka.">
+  <meta name="twitter:image" content="https://helloisuru.vercel.app/img/head-cutout.png">
+
+  <!-- JSON-LD Structured Data for Google Sitelinks & Rich Search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://helloisuru.vercel.app/#website",
+        "url": "https://helloisuru.vercel.app/",
+        "name": "Isuru Portfolio",
+        "description": "Tourism, Tech & Voice Portfolio of Isuru",
+        "publisher": {
+          "@type": "Person",
+          "name": "Isuru Sampath Aththanayake",
+          "jobTitle": "Travel Tech Director & Tourism Professional",
+          "url": "https://helloisuru.vercel.app/",
+          "sameAs": [
+            "https://www.linkedin.com/in/isuru-aththanayake-7a70ab220/",
+            "https://github.com/isuru963",
+            "https://x.com/isuru_99",
+            "https://instagram.com/isuru.s.a"
+          ]
+        },
+        "hasPart": [
+          {
+            "@type": "WebPage",
+            "name": "Hospitality & Tourism",
+            "url": "https://helloisuru.vercel.app/hospitality.html"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Travel Tech",
+            "url": "https://helloisuru.vercel.app/tech.html"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Voice Artist",
+            "url": "https://helloisuru.vercel.app/voice.html"
+          }
+        ]
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "name": "Hospitality",
+        "url": "https://helloisuru.vercel.app/hospitality.html"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "name": "Tech",
+        "url": "https://helloisuru.vercel.app/tech.html"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "name": "Voice",
+        "url": "https://helloisuru.vercel.app/voice.html"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<div id="bar"></div>
+<div class="cur"></div>
+<div class="ring"><small></small></div>
 <div id="curtain"><div><b>Isuru<span style="color:var(--red)">.</span></b><i></i></div></div>
-<nav class="top"><div class="wrap"><a href="index.html" class="brand-n">Isuru<em>.</em></a><ul>
-<li><a class="l" href="hospitality.html">Hospitality</a></li><li><a class="l" href="tech.html">Tech</a></li><li><a class="l" href="voice.html">Voice</a></li><li><a class="l" href="#contact">Contact</a></li></ul></div></nav>
+
+<nav class="top">
+  <div class="wrap">
+    <a href="index.html" class="brand-n">Isuru<em>.</em></a>
+    <ul>
+      <li><a class="l" href="hospitality.html">Hospitality</a></li>
+      <li><a class="l" href="tech.html">Tech</a></li>
+      <li><a class="l" href="voice.html">Voice</a></li>
+      <li><a class="l" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
 <main>
-<section class="hero"><h1 data-split class="auto">Isuru<span class="dotc"></span></h1>
-<img class="icon rv" style="--d:.5s" src="img/logo-icon.png" alt="Isuru logo icon">
-<div class="hero-row"><div class="portrait rv" style="--d:.8s"><img src="img/head-cutout.png" alt="Portrait of Isuru"></div>
-<div class="bio"><span class="mono rv" style="color:var(--red)">( About )</span>
-<h2 class="rv" style="--d:.1s">Hi, I’m <em>Isuru</em> - a tourism professional, tech builder and a <em>voice</em> on the mic.</h2>
-<p class="rv" style="--d:.2s">Five years in Sri Lankan hospitality taught me how to treat people. Today I’m a <b>Tour Executive</b> at Ceylon Paradise Holidays, specialised in the inbound Chinese market, and <b>Travel Tech Director</b> at IBexend, automating tourism with technology.</p>
-<p class="rv" style="--d:.3s">A BSc (Hons) CIS graduate from SUSL and former <b>Trainee AI Developer </b>, I also work as a Sinhala &amp; English <b>announcer, voice artist and MC</b>.</p>
-<div class="chips rv" style="--d:.4s"><span>Tourism</span><span>Tech &amp; AI</span><span>Voice</span></div>
-<a class="btn rv" style="--d:.5s" href="#contact" data-cur="">Get in touch ↓</a></div></div>
-<span class="scroll mono">Scroll</span></section>
-<!--
-<div class="marq"><div><span>Tourism</span><span>✦</span><span>Hospitality</span><span>✦</span><span>Tech</span><span>✦</span><span>AI</span><span>✦</span><span>Voice</span><span>✦</span><span>Sinhala · English</span><span>✦</span><span>Tourism</span><span>✦</span><span>Hospitality</span><span>✦</span><span>Tech</span><span>✦</span><span>AI</span><span>✦</span><span>Voice</span><span>✦</span><span>Sinhala · English</span><span>✦</span></div></div>-->
-<section class="stack"><a class="band red l0" href="hospitality.html" data-cur="OPEN" data-dk="1"><canvas class="live" data-live="plane" data-ink="#F5F5F5" data-cloud="rgba(255,255,255,.22)"></canvas><div class="bin"><div class="txt"><span class="mono rv">Since 2020</span><h2 data-split>Tourism &amp;<br>Hospitality<br>Expert</h2><p class="rv" style="--d:.15s">Five years in hotels and resorts, now designing inbound Sri Lanka journeys for the Chinese market as Tour Executive at Ceylon Paradise Holidays.</p><span class="go rv" style="--d:.25s"><span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h12M9 3l5 5-5 5"/></svg></span>Explore</span></div><div class="fig rv" style="--d:.1s"><img src="img/isa1.jpg" alt="" style="object-position:50% 20%" loading="lazy"></div></div></a><a class="band blk l" href="tech.html" data-cur="OPEN"><canvas class="live" data-live="binary" data-ink="#E57373"></canvas><div class="bin"><div class="txt"><span class="mono rv">Class of 2026</span><h2 data-split>Tech<br>Enthusiast</h2><p class="rv" style="--d:.15s">BSc (Hons) CIS graduate from SUSL and former AI Engineer at Bistec Global. Now Travel Tech Director at IBexend, automating tourism with code.</p><span class="go rv" style="--d:.25s"><span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h12M9 3l5 5-5 5"/></svg></span>Explore</span></div><div class="fig rv" style="--d:.1s"><img src="img/graduate.jpg" alt="" style="object-position:50% 25%" loading="lazy"></div></div></a><a class="band cor" href="voice.html" data-cur="OPEN" data-dk="1"><div class="wave" data-react></div><div class="bin"><div class="txt"><span class="mono rv">Sinhala · English</span><h2 data-split>Voice<br>Artist</h2><p class="rv" style="--d:.15s">Announcing, voice art and MC in Sinhala and English. A voice for the mic and the main stage.</p><span class="go rv" style="--d:.25s"><span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h12M9 3l5 5-5 5"/></svg></span>Explore</span></div><div class="fig rv" style="--d:.1s"><img src="img/announce.jpg" alt="" style="object-position:50% 30%" loading="lazy"></div></div></a></section></main><footer id="contact"><div class="wrap">
-<span class="mono" style="color:#777">Contact</span>
-<a class="big" href="mailto:isurus903@gmail.com" data-cur="MAIL">Let’s build<br>something.</a>
-<div class="fg">
-<div><h4>Mobile / WhatsApp</h4><a href="https://wa.me/94766587378" target="_blank" rel="noopener">+94 76 658 7378</a><a href="https://wa.me/94766587378" target="_blank" rel="noopener">@isuru.sa</a></div>
-<div><h4>Email</h4><a href="mailto:isurus903@gmail.com">isurus903@gmail.com</a></div>
-<div><h4>Social</h4><a href="https://www.linkedin.com/in/isuru-aththanayake-7a70ab220/" target="_blank" rel="noopener">LinkedIn </a><a href="https://x.com/isuru_99" target="_blank" rel="noopener">X </a><a href="https://github.com/isuru963" target="_blank" rel="noopener">GitHub </a><a href="https://instagram.com/isuru.s.a" target="_blank" rel="noopener">Instagram </a></div>
-<div><h4>Explore</h4><a href="index.html">Home</a><a href="hospitality.html">Hospitality</a><a href="tech.html">Tech</a><a href="voice.html">Voice</a></div></div>
-<div class="legal mono"><span>© 2026 Isuru</span><span id="clock">Sri Lanka</span></div></div></footer>
-<script src="js/main.js"></script></body></html>
+  <section class="hero">
+    <h1 data-split class="auto">Isuru<span class="dotc"></span></h1>
+    <img class="icon rv" style="--d:.5s" src="img/logo-icon.png" alt="Isuru logo icon">
+    
+    <div class="hero-row">
+      <div class="portrait rv" style="--d:.8s">
+        <img src="img/head-cutout.png" alt="Portrait of Isuru">
+      </div>
+      <div class="bio">
+        <span class="mono rv" style="color:var(--red)">( About )</span>
+        <h2 class="rv" style="--d:.1s">Hi, I’m <em>Isuru</em> - a tourism professional, tech builder and a <em>voice</em> on the mic.</h2>
+        <p class="rv" style="--d:.2s">Five years in Sri Lankan hospitality taught me how to treat people. Today I’m a <b>Tour Executive</b> at Ceylon Paradise Holidays, specialised in the inbound Chinese market, and <b>Travel Tech Director</b> at IBexend, automating tourism with technology.</p>
+        <p class="rv" style="--d:.3s">A BSc (Hons) CIS graduate from SUSL and former <b>Trainee AI Developer</b>, I also work as a Sinhala &amp; English <b>announcer, voice artist and MC</b>.</p>
+        <div class="chips rv" style="--d:.4s">
+          <span>Tourism</span>
+          <span>Tech &amp; AI</span>
+          <span>Voice</span>
+        </div>
+        <a class="btn rv" style="--d:.5s" href="#contact" data-cur="">Get in touch ↓</a>
+      </div>
+    </div>
+    <span class="scroll mono">Scroll</span>
+  </section>
+
+  <section class="stack">
+    <a class="band red l0" href="hospitality.html" data-cur="OPEN" data-dk="1" aria-label="Hospitality & Tourism Services">
+      <canvas class="live" data-live="plane" data-ink="#F5F5F5" data-cloud="rgba(255,255,255,.22)"></canvas>
+      <div class="bin">
+        <div class="txt">
+          <span class="mono rv">Since 2020</span>
+          <h2 data-split>Tourism &amp;<br>Hospitality<br>Expert</h2>
+          <p class="rv" style="--d:.15s">Five years in hotels and resorts, now designing inbound Sri Lanka journeys for the Chinese market as Tour Executive at Ceylon Paradise Holidays.</p>
+          <span class="go rv" style="--d:.25s">
+            <span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h12M9 3l5 5-5 5"/></svg></span>Explore
+          </span>
+        </div>
+        <div class="fig rv" style="--d:.1s">
+          <img src="img/isa1.jpg" alt="Isuru Hospitality Experience" style="object-position:50% 20%" loading="lazy">
+        </div>
+      </div>
+    </a>
+
+    <a class="band blk l" href="tech.html" data-cur="OPEN" aria-label="Travel Tech & Software Services">
+      <canvas class="live" data-live="binary" data-ink="#E57373"></canvas>
+      <div class="bin">
+        <div class="txt">
+          <span class="mono rv">Class of 2026</span>
+          <h2 data-split>Tech<br>Enthusiast</h2>
+          <p class="rv" style="--d:.15s">BSc (Hons) CIS graduate from SUSL and former AI Engineer at Bistec Global. Now Travel Tech Director at IBexend, automating tourism with code.</p>
+          <span class="go rv" style="--d:.25s">
+            <span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h12M9 3l5 5-5 5"/></svg></span>Explore
+          </span>
+        </div>
+        <div class="fig rv" style="--d:.1s">
+          <img src="img/graduate.jpg" alt="Isuru Graduation Photo" style="object-position:50% 25%" loading="lazy">
+        </div>
+      </div>
+    </a>
+
+    <a class="band cor" href="voice.html" data-cur="OPEN" data-dk="1" aria-label="Voice Artist and Announcer Portfolio">
+      <div class="wave" data-react></div>
+      <div class="bin">
+        <div class="txt">
+          <span class="mono rv">Sinhala · English</span>
+          <h2 data-split>Voice<br>Artist</h2>
+          <p class="rv" style="--d:.15s">Announcing, voice art and MC in Sinhala and English. A voice for the mic and the main stage.</p>
+          <span class="go rv" style="--d:.25s">
+            <span class="arrow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h12M9 3l5 5-5 5"/></svg></span>Explore
+          </span>
+        </div>
+        <div class="fig rv" style="--d:.1s">
+          <img src="img/announce.jpg" alt="Isuru Voice Art & MC" style="object-position:50% 30%" loading="lazy">
+        </div>
+      </div>
+    </a>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <span class="mono" style="color:#777">Contact</span>
+    <a class="big" href="mailto:isurus903@gmail.com" data-cur="MAIL">Let’s build<br>something.</a>
+    
+    <div class="fg">
+      <div>
+        <h4>Mobile / WhatsApp</h4>
+        <a href="https://wa.me/94766587378" target="_blank" rel="noopener">+94 76 658 7378</a>
+        <a href="https://wa.me/94766587378" target="_blank" rel="noopener">@isuru.sa</a>
+      </div>
+      <div>
+        <h4>Email</h4>
+        <a href="mailto:isurus903@gmail.com">isurus903@gmail.com</a>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <a href="https://www.linkedin.com/in/isuru-aththanayake-7a70ab220/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://x.com/isuru_99" target="_blank" rel="noopener">X</a>
+        <a href="https://github.com/isuru963" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://instagram.com/isuru.s.a" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="hospitality.html">Hospitality</a>
+        <a href="tech.html">Tech</a>
+        <a href="voice.html">Voice</a>
+      </div>
+    </div>
+    
+    <div class="legal mono">
+      <span>© 2026 Isuru</span>
+      <span id="clock">Sri Lanka</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
